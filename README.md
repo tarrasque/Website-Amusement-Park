@@ -45,7 +45,7 @@ Does the link lead to the correct website?
 - Media Styling
 - Animation  
 
-**4) FIANL PROJECT**
+**4) FINAL PROJECT**
 
 _DUE: 27/06 3:00 PM CEST_
 
