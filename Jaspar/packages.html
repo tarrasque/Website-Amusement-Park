@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--Primary language for that page is set as English-->
+<html lang="en">
+   <head>
+      <title>Welcome To Thrill City</title>
+      <!--that charset enables support for many international character sets-->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="My Theme Park Website">
+      <!--keywords for SEO-->
+      <meta name="keywords" content="Thrill City, amusement park, theme park, roller coasters">
+      <meta name="author" content="Thrill City">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="refresh" content=none>
+      <meta name="robots" content="noindex,nofollow">
+      <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!--
+        the main structure is a div having class="divTable AmuseHome" that contains all other divs,
+		I tried to add some colours as background, videos and images using a CSS manipulation.
+		-->
+      <div class="divTable AmuseHome">
+         <div class="divTableHeading">
+            <div class="divTableRow">
+               <div class="divTableHead"><img src="img/logo-b.png" class="headerLogoB"></div>
+            </div>
+            <div class="divTableRow">
+               <div class="divTableHead">
+                  <button type="button" onclick="location.href='index.html'">HOME</button><button type="button" onclick="location.href='attractions.html'">ATTRACTIONS</button><button type="button" onclick="location.href='packages.html'">PACKAGES</button>
+			</div>
+            </div>
+         </div>
+         <div class="divTableBody">
+            <div class="divTableRow">
+               <div class="divTableCell">
+			   <hr>
+			   				  <!-- gallery content -->
+			   GALLERY IMAGE<br>
+			   <img class="perc70" alt="Gallery Park" src="img/AmuBann600x250.png" >
+			   </div>
+            </div>
+             
+               <div class="divTableCell">
+			   <hr>
+              <!-- Amusement Park Packages -->
+			   <h3>The more the merrier at Thrill City!</h3>
+			     <div class="divHighlightsFlex">
+                   <div class="divHighlightContainer">
+                     <!--First package-->
+                       <img class="highlightsIcon" src="img/package-a.png" alt="Package A Icon">
+                       <br><h4>Personal Package
+                       <br><small>For solo adventurers</small></h4>
+                       <h1>$60<small>/person</small></h1>
+                       <hr>
+                       <ul class="ULpackageList">
+                        <li class="packageListItemIncluded">Access to all main rides and attractions</li>
+                        <li class="packageListItemIncluded">Reserved parking spot (on request)</li>
+                        <li class="packageListItemNotIncluded">Access to special group rides</li>
+                        <li class="packageListItemNotIncluded">Priority queuing</li>
+                        <li class="packageListItemNotIncluded">Free for children under 6 years old</li>
+                       </ul>
+                     </div>
+                     <div class="divHighlightContainer">
+                     <!--Second package-->
+                       <img class="highlightsIcon" src="img/package-b.png" alt="Package B Icon">
+                       <br><h4>Personal Package
+                       <br><small>For groups of 2 - 5 people</small></h4>
+                       <h1>$50<small>/person</small></h1>
+                       <hr>                       
+                       <ul class="ULpackageList">
+                        <li class="packageListItemIncluded">Access to all main rides and attractions</li>
+                        <li class="packageListItemIncluded">Reserved parking spot (on request)</li>
+                        <li class="packageListItemNotIncluded">Access to special group rides</li>
+                        <li class="packageListItemNotIncluded">Priority queuing</li>
+                        <li class="packageListItemIncluded">Free for children under 6 years old</li>
+                       </ul>
+                     </div>
+                     <div class="divHighlightContainer">
+                     <!--Third package-->
+                       <img class="highlightsIcon" src="img/package-c.png" alt="Package C Icon">
+                       <br><h4>Personal Package
+                       <br><small>For groups of 6 or more people</small></h4>
+                       <h1>$30<small>/person</small></h1>
+                       <hr>
+                       <ul class="ULpackageList">
+                        <li class="packageListItemIncluded">Access to all main rides and attractions</li>
+                        <li class="packageListItemIncluded">Reserved parking spot (on request)</li>
+                        <li class="packageListItemIncluded">Access to special group rides</li>
+                        <li class="packageListItemIncluded">Priority queuing</li>
+                        <li class="packageListItemIncluded">Free for children under 6 years old</li>
+                       </ul>
+                     </div>
+                    </div>
+			   </div>
+             
+            <div class="divTableRow">
+               <div class="divTableCell">
+			   <hr>
+				LATEST NEWS<br>
+					<table class="AmuseImages">
+						<tbody>
+							<tr>
+								<td></td>
+							</tr>
+							<tr>
+								<td> <a href="#" rel="nofollow"><img alt="Gallery Park" src="img/latestNews1.png"  width="600" ></a> </td>
+							</tr>
+							<!-- to add more NEWS:
+							<tr>
+								<td> <a href="#" rel="nofollow"><img alt="Gallery Park" src="img/latestNews1.png" border="0" width="600" ></a> </td> 
+							</tr> -->
+						</tbody>
+				   </table></div>
+            </div>
+            <div class="divTableRow">
+               <div class="divTableCell">
+			   <hr>
+				Subscribe to our Newsletter
+				<!-- Form subscription newsletter -->
+
+				<form action="#">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p><b>Sign Up now for our Park Newsletter,</b><br>you can win instantly two free tickets!</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+				</div>
+            </div>
+            <div class="divTableRow">
+				<div class="divTableCell"><hr>
+					<table class="AmusetableBottom">
+						<tbody>
+							<tr>
+								<td><b>FOLLOW US ON OUR SOCIAL MEDIA:</b><br>
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-google"></a>
+									<br>
+								<!--<a href="#" class="fa fa-linkedin"></a>-->
+									<a href="#" class="fa fa-youtube"></a>
+									<a href="#" class="fa fa-instagram"></a>
+								</td>
+								<td>&nbsp;</td>
+								<td><b>WHERE WE ARE?</b><br><br>
+								<img src="img/GoogleMaps.png" alt="Interactive Map" width="300" height="300">
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+            </div>
+         </div>
+      </div>
+      <div class="AmuseHome outerTableFooter">
+         <div class="tableFootStyle">
+            <div class="AmusetableBottom">
+			Linz - LG 2022 
+				<!--<a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a>-->
+			</div>
+         </div>
+      </div>
+   </body>
+</html>
