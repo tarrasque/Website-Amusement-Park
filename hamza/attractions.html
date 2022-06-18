@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--Primary language for that page is set as English-->
+<html lang="en">
+
+<head>
+   <title>Welcome To Thrill City</title>
+   <!--that charset enables support for many international character sets-->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="My Theme Park Website">
+   <!--keywords for SEO-->
+   <meta name="keywords" content="Thrill City, amusement park, theme park, roller coasters">
+   <meta name="author" content="Thrill City">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="refresh" content=none>
+   <meta name="robots" content="noindex,nofollow">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <!--
+        the main structure is a div having class="divTable AmuseHome" that contains all other divs,
+		I tried to add some colours as background, videos and images using a CSS manipulation.
+		-->
+   <div class="divTable AmuseHome container">
+      <div class="divTableHeading">
+         <div class="divTableRow">
+            <div class="divTableHead logo-wrapper">
+               <img src="img/logo-b.png" class="headerLogoB">
+            </div>
+         </div>
+         <div class="divTableRow">
+            <div class="divTableHead nav-wrapper">
+               <a href="index.html" class="active">HOME</a>&ensp;|&ensp;
+               <a href="attractions.html">ATTRACTIONS</a>&ensp;|&ensp;
+               <a href="packages.html">PACKAGES</a>
+               <!--<button type="button" onclick="location.href='index.html'">HOME</button>
+               <button type="button" onclick="location.href='attractions.html'">ATTRACTIONS</button>
+               <button type="button" onclick="location.href='packages.html'">PACKAGES</button>-->
+            </div>
+         </div>
+      </div>
+      <div class="divTableBody">
+         <div class="divTableRow">
+            <div class="divTableCell home-block no-p no-border">
+               <!-- Video content -->
+               <video controls>
+                  <source src="media/amusement.mp4" type="video/mp4">
+                  <source src="media/amusement.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+               </video>
+            </div>
+         </div>
+         <div class="divTableRow">
+            <div class="divTableCell">
+               <hr>
+               <!-- gallery content -->
+               GALLERY IMAGE<br>
+               <img class="perc70" alt="Gallery Park" src="img/AmuBann600x250.png">
+            </div>
+         </div>
+         <div class="divTableRow">
+            <div class="divTableCell">
+               <hr>
+               <b>OUR MAIN ATTRACTIONS</b><br>
+               <table class="AmuseImages">
+                  <tbody>
+                     <tr>
+                        <td><img src="img/attr/ferrisWhell.jpg" alt="Ferris Whell" width="275" height="183"><br>Try our
+                           panoramic Ferris Whell<br>...</td>
+                        <td><img src="img/attr/rides.jpg" alt="Rides" width="275" height="183"><br>Let's trip on our
+                           Rides<br>...</td>
+                        <td><img src="img/attr/woodRide.jpg" alt="Wood Ride" width="275" height="183"><br>Are you so
+                           brave for try our Wood Ride<br>...</td>
+                     </tr>
+                     <!--							<tr>
+								<td>IMG1_2</td>
+								<td>IMG2_2</td>
+								<td>IMG3_2</td>
+							</tr>
+-->
+                  </tbody>
+               </table>
+            </div>
+         </div>
+
+         <div class="divTableRow">
+            <div class="divTableCell home-block">
+               <h2 class="home-block__title">Subscribe to our Newsletter</h2>
+               <p class="home-block__desc">
+                  <b>Sign Up now for our Park Newsletter</b>, you can win instantly two free tickets!
+               </p>
+               <!-- Form subscription newsletter -->
+               <form action="#">
+                  <div class="grid-block grid-block--col-2 grid-block--gap-20">
+                     <div class="form-field-wrapper">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Name" id="name" name="name" required>
+                     </div>
+                     <div class="form-field-wrapper">
+                        <label for="mail">Email</label>
+                        <input type="text" placeholder="Email address" id="mail" name="mail" required>
+                     </div>
+                  </div>
+                  <div class="form-field-wrapper">
+                     <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                     </label>
+                  </div>
+                  <div class="form-field-wrapper no-m">
+                     <input type="submit" value="Subscribe">
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="divTableRow">
+            <div class="divTableCell home-block no-p no-border social-accounts">
+               <div class="flex-block">
+                  <div class="map-location">
+                     <img src="img/GoogleMaps.png" alt="Interactive Map" />
+                     </td>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="outerTableFooter text-center">
+      <div class="social-accounts-wrapper w-100">
+         <h5>FOLLOW US ON OUR SOCIAL MEDIA:</h5>
+         <ul class="flex-block social-list w-100">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-google"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+         </ul>
+      </div>
+      <div class="tableFootStyle">
+         Hamza Mohmmad 2022
+         <!--<a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a>-->
+      </div>
+   </div>
+</body>
+
+</html>
