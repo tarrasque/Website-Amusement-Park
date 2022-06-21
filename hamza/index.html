@@ -17,6 +17,10 @@
    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="css/main.css">
+
+   <script type='text/javascript' src="./scripts/mapLogic.js" async defer></script>
+   <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AjIkm6Un6Rl4gZ4GqdDLCgtqBaaKw6fOeO4SesG61SVaHRmC7AyYV4aTgzQtOm8V' async defer></script>
+
 </head>
 
 <body>
@@ -36,9 +40,6 @@
                <a href="index.html" class="active">HOME</a>&ensp;|&ensp;
                <a href="attractions.html">ATTRACTIONS</a>&ensp;|&ensp;
                <a href="packages.html">PACKAGES</a>
-               <!--<button type="button" onclick="location.href='index.html'">HOME</button>
-               <button type="button" onclick="location.href='attractions.html'">ATTRACTIONS</button>
-               <button type="button" onclick="location.href='packages.html'">PACKAGES</button>-->
             </div>
          </div>
       </div>
@@ -167,8 +168,7 @@
             <div class="divTableCell home-block no-p no-border social-accounts">
                <div class="flex-block">
                   <div class="map-location">
-                     <img src="img/GoogleMaps.png" alt="Interactive Map" />
-                     </td>
+                        <div id="Map">
                   </div>
                </div>
             </div>
@@ -187,10 +187,8 @@
          </ul>
       </div>
       <div class="tableFootStyle">
-         Hamza Mohmmad 2022
-         <!--<a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a>-->
+         web-develop-t6g8-nk1 2022
       </div>
    </div>
 </body>
-
 </html>

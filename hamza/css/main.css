@@ -406,14 +406,9 @@ input[type=submit]:hover {
 }
 
 .map-location {
-  max-height: 300px;
-  overflow: hidden;
-}
-
-.map-location img {
+  position:relative;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 400px;
 }
 
 .social-accounts-wrapper {
@@ -789,8 +784,6 @@ ul {
   }
 }
 
-
-
 .divHighlightsFlex {
   display: flex;
   flex-direction: row;
@@ -801,3 +794,35 @@ ul {
   background-color: #FFFFFF;
   grid-column-gap: 1%;
 }
+
+/* CSS styles used by custom infobox template */
+.customInfobox {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  max-width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size:12px;
+  margin-left:-100px;
+  margin-top:-30px;
+  pointer-events:auto !important;
+}
+
+.customInfobox .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.customInfobox .description {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.customInfobox .logo {
+  align-items: left;
+  margin-right: 5px;
+}
+
+ 

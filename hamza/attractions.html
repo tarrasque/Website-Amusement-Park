@@ -20,6 +20,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="css/main.css">
+
+   <script type='text/javascript' src="./scripts/mapLogic.js" async defer></script>
+   <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AjIkm6Un6Rl4gZ4GqdDLCgtqBaaKw6fOeO4SesG61SVaHRmC7AyYV4aTgzQtOm8V' async defer></script>
 </head>
 
 <body>
@@ -58,32 +61,14 @@
          </div>
          <div class="divTableRow">
             <div class="divTableCell">
-               <hr>
-               <!-- gallery content -->
-               GALLERY IMAGE<br>
-               <img class="perc70" alt="Gallery Park" src="img/AmuBann600x250.png">
-            </div>
-         </div>
-         <div class="divTableRow">
-            <div class="divTableCell">
-               <hr>
-               <b>OUR MAIN ATTRACTIONS</b><br>
+               <h2 class="home-block__title">OUR MAIN ATTRACTIONS</h2>
                <table class="AmuseImages">
                   <tbody>
                      <tr>
-                        <td><img src="img/attr/ferrisWhell.jpg" alt="Ferris Whell" width="275" height="183"><br>Try our
-                           panoramic Ferris Whell<br>...</td>
-                        <td><img src="img/attr/rides.jpg" alt="Rides" width="275" height="183"><br>Let's trip on our
-                           Rides<br>...</td>
-                        <td><img src="img/attr/woodRide.jpg" alt="Wood Ride" width="275" height="183"><br>Are you so
-                           brave for try our Wood Ride<br>...</td>
+                        <td><img src="img/attr/ferrisWhell.jpg" alt="Ferris Whell" width="275" height="183"><br>See the world from our world famous panoramic ferris wheel<br></td>
+                        <td><img src="img/attr/rides.jpg" alt="Rides" width="275" height="183"><br>Climb to new heights on our roller coasters<br></td>
+                        <td><img src="img/attr/woodRide.jpg" alt="Wood Ride" width="275" height="183"><br>Or get soaked on our wooden barrel ride<br></td>
                      </tr>
-                     <!--							<tr>
-								<td>IMG1_2</td>
-								<td>IMG2_2</td>
-								<td>IMG3_2</td>
-							</tr>
--->
                   </tbody>
                </table>
             </div>
@@ -122,8 +107,7 @@
             <div class="divTableCell home-block no-p no-border social-accounts">
                <div class="flex-block">
                   <div class="map-location">
-                     <img src="img/GoogleMaps.png" alt="Interactive Map" />
-                     </td>
+                     <div id="Map">
                   </div>
                </div>
             </div>
@@ -143,8 +127,7 @@
          </ul>
       </div>
       <div class="tableFootStyle">
-         Hamza Mohmmad 2022
-         <!--<a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a>-->
+         web-develop-t6g8-nk1 2022
       </div>
    </div>
 </body>
