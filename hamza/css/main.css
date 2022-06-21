@@ -91,8 +91,8 @@ img.headerLogoB {
   border-radius: 8px;
 }
 
-@media screen and(min-width: 1200px) {
-  .AmuseHome {
+@media screen and (min-width: 1200px) {
+ .AmuseHome {
     max-width: 1200px;
   }
 }
@@ -429,7 +429,7 @@ input[type=submit]:hover {
 ::after,
 ::before {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 a,
@@ -821,8 +821,6 @@ ul {
 }
 
 .customInfobox .logo {
-  align-items: left;
+  align-items: flex-start;
   margin-right: 5px;
 }
-
- 
